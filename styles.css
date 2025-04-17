@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Revalia&display=swap');
+
+:root {
+    --cor-principal: #76b1f5;
+    --cor-secundaria: #3287e7;
+     --cor-destaque: #1a4975;
+}
+body {
+    font-family: "Delius", cursive;
+}
+h1,h2,h5 {
+    color: var(--cor-destaque#1a4975);
+    font-weight: 600;
+}
+footer a {
+    color: var(--cor-secundaria#3287e7);
+  }
+footer a:hover {
+    color: var(--cor-principal#76b1f5);
+}
