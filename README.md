@@ -68,183 +68,127 @@
       </div>
     </div>
 
-   <!-- MODAL 1-->
-<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <!-- modal 1 -->
+<div class="modal"id="modal1" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-     <div class="modal-body"><small class="text-primary"><strong>Já assistiu esses filmes? Se já assistiu, deixa o seu check-in.</small></strong>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-          <label class="form-check-label" for="checkDefault">
-           <p><em> 2019 Cinderela Pop	</em></p>
-           <img src="img/pop-filme.jpg" alt=""style="max-width: 4rem;"style="max-height: 4rem;">
-          </label>
-        </div> 
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-          <label class="form-check-label" for="checkDefault">
-            <p><em>2023	Um Ano Inesquecível - Inverno</em></p>
-              <img src="img/inverno-filme.jpg" alt=""style="max-width: 4rem;"style="max-height: 4rem;">
-          </label>
-        </div> 
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-          <label class="form-check-label" for="checkDefault">
-            <p><em>2024	Fazendo Meu Filme	</em></p>
-            <img src="img/fani-filme.jpg" alt=""style="max-width: 4rem;"style="max-height: 4rem;">
-            </p>
-          </label>
-        </div> 
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-          <label class="form-check-label" for="checkDefault">
-            <p><em>2024 Princesa Adormecida</em></p>
-            <img src="img/adormecia- filme.jpg" alt=""style="max-width: 4rem;"style="max-height: 4rem;">
-          </label>
-        </div> 
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="modal1" data-bs-toggle="modal">Salvar alterações</button>
-      </div>
-    </div>
-  </div>
-</div>
-
- <!-- MODAL 2-->
-<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body"><mark><strong>Fazendo meu filme</strong></mark>
-        <img src="img/fani.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;">
-        <div class="form-check"> <!--check-in-->
-         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-         <label class="form-check-label" for="checkDefault">
-           <p><em>2008	Fazendo meu Filme : A Estreia de Fani</em></p>
-         </label>
-       </div> 
-       <div class="form-check">
-         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-         <label class="form-check-label" for="checkDefault">
-           <p><em>2009	Fazendo meu Filme 2 : Fani na Terra da Rainha</em></p>
-         </label>
-       </div> 
-       <div class="form-check">
-         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-         <label class="form-check-label" for="checkDefault">
-           <p><em>2010	Fazendo meu Filme 3 : O Roteiro Inesperado de Fani</em></p>
-         </label>
-       </div> 
-       <p><mark><strong>Minha vida fora de série</strong></mark>
-     <img src="img/coleção.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;"></p>
-       <div class="form-check">
-         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-         <label class="form-check-label" for="checkDefault">
-           <p><em>2011	Minha Vida Fora de Série : 1ª temporada</em></p>
-         </label>
-       </div> 
-       <div class="form-check">
-         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-         <label class="form-check-label" for="checkDefault">
-           <p><em>2013	Minha Vida Fora de Série : 2ª temporada</em></p>
-         </label>
-       </div>
-       <div class="form-check">
-         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-         <label class="form-check-label" for="checkDefault">
-           <p><em>2015	Minha Vida Fora de Série : 3ª temporada</em></p>
-         </label>
-       </div>
-       <p><mark><strong>Princesas</strong></mark>  
-       <img src="img/princessas.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;"></p>
-       <div class="form-check">
-         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-         <label class="form-check-label" for="checkDefault">
-           <p><em>2014	Princesa Adormecida	</em></p>
-         </label>
-       </div>
-       <div class="form-check">
-         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-         <label class="form-check-label" for="checkDefault">
-           <p><em>2015	Cinderela Pop	</em></p>
-         </label>
-       </div>
-       <div class="form-check">
-         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-         <label class="form-check-label" for="checkDefault">
-           <p><em>2016	Princesa das Águas</em></p>
-         </label>
-       </div>
-       <div class="modal-footer">
-         <button class="btn btn-primary" data-bs-target="modal2" data-bs-toggle="modal">Salvar alterações</button>
-       </div>
-     </div>
-   </div>
- </div>
-
-<!-- MODAL 3-->
-<div class="modal fade" id="modal3" tabindex="-1"aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="modal">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal 3" aria-label="Close"></button>
+        <h5 class="modal-title">Filmes</h5>
+        
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
       </div>
       <div class="modal-body">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+        <p class="fs-5 text-center"><small class="text-primary"><strong> Já assistiu esses filmes? Se já assistiu, deixa o seu check-in.</small></strong></p>
+        <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault">
           <label class="form-check-label" for="checkDefault">
-            <p><em>Apaixonada por Palavras</em></p>
-            <img src="img/palavras.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;">
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-          <label class="form-check-label" for="checkDefault">
-            <p><em>O Livro das Princesas</em></p>
-            <img src="img/o livro.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;">
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-          <label class="form-check-label" for="checkDefault">
-            <p><em>Confissão</em></p>
-            <img src="img/confissão.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;">
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-          <label class="form-check-label" for="checkDefault">
-            <p><em>Apaixonada por você</em></p>
-            <img src="img/por voce.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;">
-          </label>
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="modal3" data-bs-toggle="modal">Salvar alterações</button>
-        </div>
+            <p><em> 2019 Cinderela Pop </em></p>
+            <img src="img/pop-filme.jpg" alt=""style="max-width: 4rem;"style="max-height: 4rem;">
+           </label></div> 
+           <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault">
+            <label class="form-check-label" for="checkDefault">
+              <p><em>2023 Um Ano Inesquecível - Inverno</em></p>
+              <img src="img/inverno-filme.jpg" alt=""style="max-width: 4rem;"style="max-height: 4rem;"></label></div> 
+            <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault">
+              <label class="form-check-label" for="checkDefault">
+                <p><em>2024 Fazendo Meu Filme </em></p>
+                <img src="img/fani-filme.jpg" alt=""style="max-width: 4rem;"style="max-height: 4rem;"> </p> </label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                  <label class="form-check-label" for="checkDefault">
+                     <p><em>2024 Princesa Adormecida</em></p>
+                  <img src="img/adormecia- filme.jpg" alt=""style="max-width: 4rem;"style="max-height: 4rem;"></label></div> </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Salvar alterações</button>
+                  </div></div></div></div>
+                </div>    
+</div>
+
+<!-- modal 2-->
+<div class="modal"id="modal2" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Coleções</h5>
+        <button
+          type="button" class="btn-close"data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-    </div>
-    </div>
-      
-</main>
+      <div class="modal-body">
+        <p class="text-center"> Minhas coleções de livros são feitas de palavras que abraçam, histórias que tocam a alma e caminhos que levam o leitor a outros mundos. Em cada página, há um pouco de mim e muito do que a vida ensina.</p>
+        <p><mark><strong>Fazendo meu filme</strong></mark>
+          <img src="img/fani.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;">
+          <div class="form-check"> <!--check-in-->
+         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+         <label class="form-check-label" for="checkDefault">
+          <p><em>2008 Fazendo meu Filme : A Estreia de Fani</em></p>
+        </label> </div>
+         <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault">
+  <label class="form-check-label" for="checkDefault">
+ <p><em>2009 Fazendo meu Filme 2 : Fani na Terra da Rainha</em></p></label> </div>
+  <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault"><label class="form-check-label" for="checkDefault"><p><em>2010 Fazendo meu Filme 3 : O Roteiro Inesperado de Fani</em></p></label></div> 
+  <p><mark><strong>Minha vida fora de série</strong></mark> <img src="img/coleção.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;"></p>
+ <div class="form-check"> <input class="form-check-input" type="checkbox" value="" id="checkDefault"> <label class="form-check-label" for="checkDefault"> <p><em>2011 Minha Vida Fora de Série : 1ª temporada</em></p> </label> </div> <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault"><label class="form-check-label" for="checkDefault"><p><em>2013 Minha Vida Fora de Série : 2ª temporada</em></p></label></div>
+ <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault"><label class="form-check-label" for="checkDefault">
+ <p><em>2015 Minha Vida Fora de Série : 3ª temporada</em></p></label></div>
+  <p><mark><strong>Princesas</strong></mark> 
+  <img src="img/princessas.jpg" alt=""style="max-width: 8rem;"style="max-height: 8rem;"></p><div class="form-check"> <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+  <label class="form-check-label" for="checkDefault">
+   <p><em>2014 Princesa Adormecida </em></p></label></div>
+   <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault"><label class="form-check-label" for="checkDefault"> <p><em>2015 Cinderela Pop </em></p> </label></div><div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault"> <label class="form-check-label" for="checkDefault">
+  <p><em>2016 Princesa das Águas</em></p></label></div>
+<div class="modal-footer">
+  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Salvar alterações</button></div>
+              </div></div></div></p>
+      </div>  
+</div>
+
+<!--modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Livros</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<p class="text-center">Te convido a conhecer meus livros. Cada página guarda uma nova emoção, esperando por você.Vamos embarcar juntos nessa leitura?</div>
+         
+  <div class="form-check" class><input class="form-check-input" type="checkbox" value="" id="checkDefault">
+            <p><em>Apaixonada por Palavras</em></p>
+ <img src="img/palavras.jpg" alt=""style="max-width: 6rem;"style="max-height: 6rem;"></label></div>
+  <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault">
+ <label class="form-check-label" for="checkDefault">
+<p><em>O Livro das Princesas</em></p>
+ <img src="img/o livro.jpg" alt=""style="max-width: 6rem;"style="max-height: 6rem;"></label></div>
+        <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault">
+   <label class="form-check-label" for="checkDefault">
+   <p><em>Confissão</em></p>
+<img src="img/confissão.jpg" alt=""style="max-width: 6rem;"style="max-height: 6rem;"></label></div>
+ <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkDefault">
+ <label class="form-check-label" for="checkDefault">
+   <p><em>Apaixonada por você</em></p>
+  <img src="img/por voce.jpg" alt=""style="max-width: 7rem;"style="max-height: 7rem;"></label></div>
+   <div class="modal-footer">
+  <button class="btn btn-primary" data-bs-target="modal3" data-bs-toggle="modal">Salvar alterações</button>
+   </div></div></div></div></p>
+      </div>  
+</div>
+
+
+
 <!-- citação -->
 <figure class="text-center">
   <blockquote class="blockquote">
-    <p><small>Eu já tinha acreditado que algum dia eu seria como a protagonista de um da queles filmes,
-       que o final feliz seria questão de tempo...Mais descobri que a felicidade e finais não combinam.</small></p>
+    <p class="fs-6"><em><small>Eu já tinha acreditado que algum dia eu seria como a protagonista de um da queles filmes,
+       que o final feliz seria questão de tempo...Mais descobri que a felicidade e finais não combinam.</em></small></p>
   </blockquote>
-  <figcaption class="blockquote-footer">
-    Paula Pimenta <cite title="Source Title"></cite>
+  <figcaption class="blockquote-footer text-danger">
+     <cite title="Source Title">Fazendo o meu filme</cite>
   </figcaption>
 </figure>
-
 <!-- rodapé -->
 <footer class="container  py-5">
   <h2 class="text-primary">Entre em contato</h2> <!-- PINTEI DE AZUL -->
