@@ -29,4 +29,10 @@ body {
   a:hover {
     color: var(--cor-principal);
   }
-  
+ header img{
+  border:3px solid rgb(143, 8, 177)  ;
+}
+.form-check-input{
+  border: 1px solid #590664;
+
+}
